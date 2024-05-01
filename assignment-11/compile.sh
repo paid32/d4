@@ -1,0 +1,1 @@
+javac -classpath "../hadoop/share/hadoop/common/hadoop-common-3.3.5.jar:../hadoop/share/hadoop/mapreduce/hadoop-mapreduce-client-core-3.3.5.jar" WordCount.java && jar -cvf WordCount.jar WordCount*.class
